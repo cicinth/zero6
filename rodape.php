@@ -1,10 +1,10 @@
 <div class="container-fluid">
   <div class="row rodape">
-    <div class="col-sm-4 ">
+    <div class="col-sm-6 ">
     <h5 class= "dev-footer">© 2017 Todos os direitos reservados |Desenvolvido por Cinthia e Giovanna</h5>
     </div>
-    <div class="col-sm-4 "> </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3 "> </div>
+    <div class="col-sm-3">
         <a class="btn btn-social-icon btn-facebook sociais">
           <i class="fa fa-facebook icon">
           </i>
