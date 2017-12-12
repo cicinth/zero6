@@ -27,32 +27,17 @@
       </div>
     </section>
 
-    <section id="destaques">
-      <div class="container-fluid destaques">
-        <div class="row">
-          <div class="col-sm-4">
-            <h4>Destaque 1</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div class="col-sm-4">
-            <h4>Destaque 2</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div class="col-sm-4">
-            <h4>Destaque 3</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section id="">
       <div class="container-fluid">
         <div class="jumbotron">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-5">
           <h1>Lorem ipsum</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
           <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
           <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          
         </div>
       </div>
     </section>
@@ -63,3 +48,16 @@
 
   </body>
 </html>
+
+<script>
+    $(function() {
+      $(window).on("scroll", function() {
+        if($(window).scrollTop() > 100) {
+          $(".navbar").addClass("menu2");
+        } else {
+          $(".navbar").removeClass("menu2");
+        }
+      });
+    }); 
+
+</script>

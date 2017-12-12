@@ -7,47 +7,66 @@
 }
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 .wrapper source{
   width: 100%;
-  margin-top: -6%;
+  margin-top: 0;
   height: auto;
   background-size: cover;
+  text-align: center;
 }
+
 #background{
   position: relative;
   width: 100%;
   -webkit-transform: translateX(0%) translateY(-20%);
   background-size: cover;
+
 }
-.destaques{
-  background-color: #ff8f15;
-  text-align: center;
-  color: #fff;
-}
-.destaques .row{
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
+
+
 .rodape{
   color: #fff;
-  background-color: #000;
+  background-color:#151515;
   text-align: center;
   bottom: 0;
+  height: 100px;
+}
+.sociais{
+  background-color: rgb(39, 39, 39);
+  margin-top: 5%;
+  margin-left: 9px;
+  height: 50px;
+  width: 50px;
+
+}
+.sociais:hover{
+  background-color: #ff8f15;
+}
+.icon{
+  margin-top: 11%;
 }
 .jumbotron{
   background-color: #fff;
+  margin-top: -200 !important;
+   
+}
+.dev-footer{
+  margin-top: 8%;
+  font-size: 14px;
 }
 .navbar{
   height: 70px;
-  background-color: #111111;
-  border-bottom:3px solid #0f0f0f;
+  background-color: #0f0f0f00;
+  border-bottom:3px solid #0f0f0f00;
   font-size: 19px;
-  position: relative;
-  background-color: transparent;
-  border: transparent !important;
+  position: fixed;
   color: white;
 }
+
 
 .navbar-nav{
   padding-left: 50%;
@@ -67,8 +86,8 @@
 .background-preto{
   position: absolute;
   width: 100%;
-  height: 109%;
-  background-color: #00000078;
+  height: 96%;
+  background-color: #0000008f;
   top: 0;
 }
 .text-center{
@@ -88,6 +107,11 @@
   font-size: 118px;
   color: #f6881f;
   margin-bottom: 0;
+}
+.menu2{
+  background-color: rgba(15, 15, 15, 0.96) !important;
+  border-bottom:3px solid #000000 !important;
+  height: 90px !important;
 }
 @media screen and (max-width: 1200px) {
 
@@ -115,4 +139,45 @@
     padding-left: 0%;
 
   }
+  #background{
+    position: relative;
+    width: 100%;
+    height: 550px !important; 
+    -webkit-transform: translateX(0%) translateY(-20%);
+    background-size: cover;
+  }
+  .rodape{
+    color: #fff;
+    background-color:#151515;
+    text-align: center;
+    bottom: 0;
+    height: 190px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .background-preto{
+    position: absolute;
+    width: 100%;
+    height: 42%;
+    background-color: #0000008f;
+    top: 0;
+  }
+  .background-preto h1{
+    font-size: 58px;
+    color: #f6881f;
+    margin-bottom: 0;
+    margin-top: 35%;
+ 
+  }
+  .producoes{
+    margin: 0 0 0 160px;
+    color: white;
+    font-size: 15px;
+    top: 0;
+    padding: 0 0 0 0;
+  }
+
 }
