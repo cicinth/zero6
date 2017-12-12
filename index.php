@@ -26,18 +26,14 @@
         </div>
       </div>
     </section>
-
+    
     <section id="">
       <div class="container-fluid">
         <div class="jumbotron">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-5">
           <h1>Lorem ipsum</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
           <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
           <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          
         </div>
       </div>
     </section>
