@@ -7,35 +7,29 @@
     <header>
       <?php include 'menu.php'; ?>
     </header>
-    <section id="page-top">
+    <section id="home" class = "home">
       <div class="container-fluid">
         <div class="row">
           <div class="wrapper">
             <video autoplay="" loop="" muted="" poster="screenshot.jpg" id="background">
-  		          <source src="img/zero6.mp4" type="video/mp4">
-  	        </video>
-            <div class="background-preto">
-              <div class="col-sm-4"></div>
-              <div class="col-sm-4 text-center zero">
-                <h1>Zero6</h1>
-                <p class="producoes">Produções</p>
-              </div>
-              <div class="col-sm-4"></div>
-            </div>
+                  <source src="img/zero6.mp4" type="video/mp4">
+              </video>
+            <!-- <img src="img/banner1.jpg" alt=""> -->
           </div>
         </div>
       </div>
     </section>
-    
-    <section id="">
-      <div class="container-fluid">
-        <div class="jumbotron">
-          <h1>Lorem ipsum</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-          <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-          <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </div>
+    <section id="quemsomos" class= "quemsomos">
+        <?php include 'quemsomos.php'; ?>
+    </section>
+    <section id="galeria" class= "galeria">
+        <?php include 'galeria.php'; ?>
+    </section>
+    <section id = "noticias" class = "noticias">
+         <?php include 'noticias.php'; ?> 
+    </section>
+    <section id = "contato" class= "contato">
+        <?php include 'contato.php'; ?>       
     </section>
 
     <footer>
@@ -55,5 +49,29 @@
         }
       });
     }); 
+
+
+  jQuery(document).ready(function($) {
+    $("#btnhome").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$("#home").offset().top}, 800);
+   });
+     $("#btnquemsomos").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$("#quemsomos").offset().top}, 800);
+   });
+   $("#btngaleria").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$("#galeria").offset().top}, 800);
+   });
+   $("#btnnoticias").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$("#noticias").offset().top}, 800);
+   });
+   $("#btncontato").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$("#contato").offset().top}, 800);
+   });
+  });
 
 </script>
