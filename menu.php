@@ -6,14 +6,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php">Zero6</a>
+      <a class="navbar-brand" id = "btnhome" href="#home">zerø6</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="">Quem somos</a></li>
-        <li><a href="">Galeria</a></li>
-        <li><a href="">Noiticias</a></li>
-        <li><a href="">Contato</a></li>
+      <ul class="nav navbar-nav" id = "myNavbar" >
+        <li><a id = "btnquemsomos" href="#quemsomos">Quem somos</a></li>
+        <li><a id="btngaleria" href="#galeria">Galeria</a></li>
+        <li><a id = "btnnoticias" href="#noticias">Noticias</a></li>
+        <li><a id = "btncontato"  href="#contato">Contato</a></li>
       </ul>
     </div>
   </div>

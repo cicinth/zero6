@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <?php include 'imports.php'; ?>
-  </head>
-  <body>
-    <header>
-      <?php include 'menu.php'; ?>
-
-
-     <footer>
-          <?php include 'rodape.php'; ?>
-    </footer>
-    </body>
-</html>
+<div class="container">
+    <div class="row quemsomospag">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-1 iconquemsomos">
+            <i class="glyphicon glyphicon-bullhorn"></i>
+       </div>
+       <div class="col-sm-3">
+            <h1>Fique ligado</h1>
+       </div>
+       <div class="col-sm-4"></div>
+     
+    </div>
+</div
